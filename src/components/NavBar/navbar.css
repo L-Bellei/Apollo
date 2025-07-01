@@ -1,0 +1,46 @@
+.navbar {
+	display: flex;
+	flex-direction: row;
+	align-items: space-around;
+	padding: 10px 20px;
+	background-color: #643b9f;
+	color: whitesmoke;
+}
+
+.logo {
+	text-align: start;
+	width: 100%;
+}
+
+.logo a {
+	text-decoration: none;
+	font-size: 30px;
+	color: whitesmoke;
+}
+
+.navbar ul {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	margin: 0px 30px;
+	padding: 0;
+	gap: 10px;
+}
+
+.navbar ul li {
+	width: 100%;
+}
+
+.navbar ul li:hover {
+	background-color: rgba(255, 255, 255, 0.1);
+	border-bottom: whitesmoke 2px solid;
+}
+
+.navbar ul li a {
+	color: whitesmoke;
+	text-decoration: none;
+	width: 100%;
+	padding: 5px 10px;
+	font-size: 22px;
+	transition: background-color 0.3s;
+}
